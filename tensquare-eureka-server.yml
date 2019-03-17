@@ -10,7 +10,7 @@ server:
 spring: 
   profiles: dev     #开发环境
   application: 
-    name: tensquare-eureka-client
+    name: tensquare-eureka-server
 
 eureka:
   instance:
@@ -29,7 +29,7 @@ server:
 spring: 
   profiles: test     #测试环境
   application: 
-    name: tensquare-eureka-client
+    name: tensquare-eureka-server
 
 eureka:
   instance:
